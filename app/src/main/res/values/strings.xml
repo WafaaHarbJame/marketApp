@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">H2o</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">H2o</string>
+    <string name="nav_header_subtitle">wafaajame@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_home">Home </string>
+    <string name="action_about">About app </string>
+    <string name="title">other</string>
+    <string name="action_share">share app </string>
+
+    <string name="action_settings">setting </string>
+    <string name="share_text">share H2o </string>
+    <string name="name1"> share H2o from this link</string>
+    <string name="facebook_app_id">306379673290641</string>
+    <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
+    <string name="press_again_to_exit">press again to exit </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about"> H2o is a app  that contain every thing about water  by using this app you know every thing about water  </string>
+    <string name="no_internet">No internet connection</string>
+
+
+</resources>
