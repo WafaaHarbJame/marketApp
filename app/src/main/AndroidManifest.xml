@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.h2oapp.h2o">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.market.market">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -10,10 +11,17 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:testOnly="false"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        tools:targetApi="n"
+        android:hardwareAccelerated="true"
+
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning,HardcodedDebugMode">
         <activity
-            android:name="com.h2oapp.h2o.Activity.ActivitySplash"
+            android:name="com.market.market.Activity.startsplashActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
             <intent-filter>
@@ -21,23 +29,19 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name="com.h2oapp.h2o.MainActivity">
 
         </activity>
-        <activity
-            android:name="com.facebook.FacebookActivity"
-            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:label="@string/app_name">
-
-        </activity>
-        <activity android:name=".Activity.FacebookActivity"></activity>
-
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id"/>
 
-        <activity android:name="com.h2oapp.h2o.Activity.LoginActivity"></activity>
+<activity android:name="com.market.market.MainActivity">
+
+</activity>
+        
+
     </application>
+
 
 </manifest>

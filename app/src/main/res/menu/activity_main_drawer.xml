@@ -8,10 +8,19 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_iconfinder_home_353416"
             android:title="@string/action_home" />
+
         <item
-            android:id="@+id/nav_about"
-            android:icon="@drawable/ic_iconfinder_v_31_3162614"
-            android:title="@string/action_about" />
+            android:id="@+id/nav_qurann"
+            android:icon="@drawable/ic_booook"
+            android:title="qurann" />
+        <item
+            android:id="@+id/nav_hadith"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="hadith" />
+
+
+
+
 
     </group>
 

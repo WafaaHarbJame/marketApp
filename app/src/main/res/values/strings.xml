@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">H2o</string>
+    <string name="app_name">مهرجان العروض </string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">H2o</string>
-    <string name="nav_header_subtitle">wafaajame@gmail.com</string>
+    <string name="nav_header_title"> catatanquran</string>
+    <string name="nav_header_subtitle">info@catatanquran.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_home">Home </string>
     <string name="action_about">About app </string>
@@ -11,16 +11,41 @@
     <string name="action_share">share app </string>
 
     <string name="action_settings">setting </string>
-    <string name="share_text">share H2o </string>
-    <string name="name1"> share H2o from this link</string>
+    <string name="share_text">share catatanquran </string>
+    <string name="name1"> share catatanquran from this link</string>
     <string name="facebook_app_id">306379673290641</string>
     <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
     <string name="press_again_to_exit">press again to exit </string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="about"> H2o is a app  that contain every thing about water  by using this app you know every thing about water  </string>
+
     <string name="no_internet">No internet connection</string>
 
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_unit_id">ca-app-pub-4889263297951284/8730635451</string>
 
+    <string name="btn_retry">try again</string>
+
+    <string name="failed_title_text"> whoops !</string>
+    <string name="failed_text">No Internet connection  try again </string>
+    <string name="loading">Loading</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
 </resources>
